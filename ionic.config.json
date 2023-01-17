@@ -1,0 +1,7 @@
+{
+  "name": "dummyApi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
