@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AutentificarService} from './../../auth/services/autentificar.service';
 
 @Component({
   selector: 'app-lista-usuarios',

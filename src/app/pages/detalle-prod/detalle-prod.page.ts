@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ApiProductosService} from './../../services/api-productos.service'
 
 @Component({
   selector: 'app-detalle-prod',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetalleProdPage implements OnInit {
 
-  constructor() { }
+  constructor(
+    private productos : ApiProductosService
+  ) { }
 
   ngOnInit() {
   }
+
 
 }

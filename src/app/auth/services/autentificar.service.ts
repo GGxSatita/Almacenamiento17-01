@@ -49,6 +49,7 @@ export class AutentificarService {
       if(datosDeInternet){
         this.datosUsuario = datosDeInternet;
         if(activo){
+          console.log(datosDeInternet)
           this.almacen.guardarToken(datosDeInternet.token)
         }
       }
